@@ -3,6 +3,7 @@ Section: utils
 Priority: optional
 Build-Depends: debhelper (>= 9)
 Maintainer: İzzet Aydin <izzetaydin@gmail.com>
+
 Package: adalet
 Depends: conky,pinta,kazam
 Architecture: all
