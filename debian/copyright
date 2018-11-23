@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ahenk-ldap
-Source: https://github.com/Pardus-LiderAhenk/ahenk-ldap
+Source: https://github.com/izzetaydin83/adalet
 
 Files: *
-Copyright: 2018 Ömer Çakmak <farukomercakmak@gmail.com>
+Copyright: 2018 İzzet Aydin <izzetaydin@gmail.com>
 License: GPL-3.0+
 
 License: GPL-3.0+
