@@ -6,6 +6,8 @@ Maintainer: İzzet Aydin <izzetaydin@gmail.com>
 
 Package: adalet
 Depends: conky
+Conflicts: tree
+Replaces: tree
 Architecture: all
 Version: 1.0
 Description: Adalet uyarlaması
