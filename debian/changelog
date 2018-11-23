@@ -1,13 +1,5 @@
 adalet (1.0) unstable; urgency=medium
 
-  [ İzzet Aydın ]
-  * Add package
-
--- Ömer ÇAKMAK <farukomercakmak@gmail.com> Tue, 12 Nov 2017 14:06:11 +0300
-[33mcommit 361b31698b2ddb04036c0983ff40b69c42a9897c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
-Author: izzet <izzet@localhost.localdomain>
-Date:   Fri Nov 23 12:19:10 2018 +0300
-
     First commit
 
 [33mcommit f2979aa7e095d1ddadc6ddd8320270729e316234[m
