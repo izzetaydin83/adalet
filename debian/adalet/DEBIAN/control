@@ -1,9 +1,0 @@
-Package: adalet
-Version: 1.0
-Architecture: all
-Maintainer: İzzet Aydin <izzetaydin@gmail.com>
-Installed-Size: 11
-Depends: conky, pinta, kazam
-Section: utils
-Priority: optional
-Description: Adalet uyarlaması
