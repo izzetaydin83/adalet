@@ -1,0 +1,16 @@
+Source: ahenkldap
+Section: utils
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Maintainer: Ömer Çakmak <farukomercakmak@gmail.com>
+
+Package: ahenkldap
+Depends: ahenk,
+	 nscd,
+	 libpam-ldap,
+	 libnss-ldap,
+	 ldap-roles,
+	 ldap-utils
+Architecture: all
+Description: Ldap user login setting package
+	Ldap kullanici giris ayarlari
