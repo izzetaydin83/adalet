@@ -10,4 +10,5 @@ Conflicts: tree, gimp, icedtea-netx
 Replaces: tree, gimp, icedtea-netx
 Architecture: all
 Version: 1.0
-Description: Adalet uyarlaması
+Description: TC. Adalet Bakanlığı Pardus17 uyarlaması
+	TC. Adalet Bakanlığı isterleri için düzenlemeleri içeren paket
