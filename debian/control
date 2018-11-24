@@ -6,8 +6,8 @@ Maintainer: İzzet Aydin <izzetaydin@gmail.com>
 
 Package: adalet
 Depends: conky, pinta, kazam, pidgin
-Conflicts: tree, gimp, icedtea*
-Replaces: tree, gimp, icedtea*
+Conflicts: tree, gimp, icedtea-netx
+Replaces: tree, gimp, icedtea-netx
 Architecture: all
 Version: 1.0
 Description: Adalet uyarlaması
