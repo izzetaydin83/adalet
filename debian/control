@@ -6,8 +6,8 @@ Maintainer: İzzet Aydin <izzetaydin@gmail.com>
 
 Package: adalet
 Depends: conky, pinta, kazam, pidgin, oracle-java8-jre, akis, pidgin
-Conflicts: tree, gimp, icedtea-netx, openjdk-8-jre
-Replaces: tree, gimp, icedtea-netx, openjdk-8-jre
+Conflicts: tree, gimp, icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless
+Replaces: tree, gimp, icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless
 Architecture: all
 Version: 1.0
 Description: TC. Adalet Bakanlığı Pardus17 uyarlaması
