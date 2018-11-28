@@ -22,7 +22,7 @@ install:
 
 	unopkg add -f --shared data/libre/oo-turkish-dict-v1-2.oxt
 
-	@cp -rf data/uyarlama.sh $(DESTDIR)
+	@cp -rf data/uyarlama.sh $(DESTDIR)/
 
 uninstall:
 	@rm -rf $(DESTDIR)/usr/lib/mozilla/plugins/libflashplayer.so
