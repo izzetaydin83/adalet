@@ -8,9 +8,17 @@ install:
 
 	mkdir -p  $(DESTDIR)/etc/skel/.java/
 	mkdir -p  $(DESTDIR)/etc/skel/Masaüstü/
+	mkdir -p  $(DESTDIR)/etc/skel/.config/
 	@cp -rf data/desktop/* $(DESTDIR)/etc/skel/Masaüstü/
 	@cp -rf data/java/_.java $(DESTDIR)/etc/skel/.java
 	@cp -rf data/java/_.java.policy $(DESTDIR)/etc/skel/.java.policy 
+	@cp -rf data/xfce4 $(DESTDIR)/etc/skel/.config/xfce4
+
+
+	mkdir -p $(DESTDIR)/usr/share/backgrounds/
+	@cp -rf data/ADALET7.jpg $(DESTDIR)/usr/share/backgrounds/
+
+
 
 	mkdir -p $(DESTDIR)/usr/lib/mozilla/plugins/
 	@cp -rf data/firefox/libflashplayer.so $(DESTDIR)/usr/lib/mozilla/plugins/libflashplayer.so
@@ -22,7 +30,7 @@ install:
 
 	unopkg add -f --shared data/libre/oo-turkish-dict-v1-2.oxt
 
-	@cp -rf data/uyarlama.sh $(DESTDIR)/
+	@cp -rf data/uyarlama.sh $(DESTDIR)/usr/local/bin/
 
 uninstall:
 	@rm -rf $(DESTDIR)/usr/lib/mozilla/plugins/libflashplayer.so

@@ -3,8 +3,7 @@ USR="$(cat /opt/uid.txt)"
 rm /opt/uid.txt
 
 cp -r /etc/skel/.java /home/$USR/.java
-cp -r /etc/skel/_.java.policy /home/$USR/.java.policy
-rm -rf /home/$USR/.config/xfce4/
+cp -r /etc/skel/.java.policy /home/$USR/.java.policy
 cp -r /etc/skel/Masaüstü/*.desktop /home/$USR/Masaüstü/
 chown -R $USR:$USR /home/$USR/
 
