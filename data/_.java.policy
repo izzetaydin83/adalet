@@ -1,7 +1,0 @@
-/* AUTOMATICALLY GENERATED ON Mon Sep 15 13:54:30 EEST 2003*/
-/* DO NOT EDIT */
-
-grant {
-  permission java.security.AllPermission;
-};
-
