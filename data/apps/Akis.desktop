@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Akis Akıllı Kart
+Comment=
+Exec=akia
+Icon=/usr/share/pixmaps/akis.png
+Path=
+Terminal=false
+StartupNotify=false

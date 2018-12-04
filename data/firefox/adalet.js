@@ -10,6 +10,9 @@
 pref("extensions.update.enabled", true);
 
 // Use LANG environment variable to choose locale
+lockPref("browser.startup.homepage", "http://portal.uyap.gov.tr");
+lockPref("browser.search.order.1", "Google");
+lockPref("browser.search.defaultenginename", "Google");
 pref("intl.locale.matchOS", true);
 
 // Disable default browser checking.
@@ -18,12 +21,18 @@ sticky_pref("security.mixed_content.block_active_content", false);
 
 // Disable openh264.
 pref("media.gmp-gmpopenh264.enabled", false);
+pref("security.insecure_field_warning.contextual.enabled", false);
 
 // Default to classic view for about:newtab
 sticky_pref("browser.newtabpage.enhanced", false);
 
 // Disable health report upload
 pref("datareporting.healthreport.uploadEnabled", false);
+pref("browser.startup.page", 1);
+pref("browser.startup.homepage","portal.uyap.gov.tr");
+pref("browser.search.defaultenginename","Google");
+pref("browser.search.order.1", "Google");
+pref("browser.search.order.2", "Yandex");
 pref("network.proxy.type", 1);
 pref("network.proxy.http", "10.201.61.160");
 pref("network.proxy.http_port", 80);

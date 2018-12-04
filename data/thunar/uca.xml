@@ -1,0 +1,37 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>Terminal</icon>
+	<name>Burada Terminal Aç</name>
+	<unique-id>1521029435263378-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Örnek bir eylem için örnek</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>filefind</icon>
+	<name>Bu dizinde bul</name>
+	<unique-id>1521029435263450-2</unique-id>
+	<command>catfish --path=%f</command>
+	<description>Bu dizin içerisinde dosyaları ara</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>libreoffice-calc</icon>
+	<name>Yeni Hesap Tablosu</name>
+	<command>libreoffice --calc</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+        <icon>libreoffice-writer</icon>
+        <name>Yeni Metin Belgesi</name>
+        <command>libreoffice --writer</command>
+        <description></description>
+        <patterns>*</patterns>
+        <directories/>
+</action>
+</actions>

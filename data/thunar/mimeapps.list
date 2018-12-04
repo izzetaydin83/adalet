@@ -1,0 +1,24 @@
+[Default Applications]
+application/x-java-jnlp-file=javaws.desktop
+image/jpeg=ristretto.desktop
+image/bmp=ristretto.desktop
+image/gif=ristretto.desktop
+image/png=ristretto.desktop
+image/tiff=ristretto.desktop
+text/plain=mousepad.desktop;
+application/x-iso9660-appimage=gnome-disk-image-mounter.desktop;
+application/x-cd-image=gnome-disk-image-mounter.desktop;
+
+
+
+[Added Associations]
+application/x-java-jnlp-file=javaws.desktop;
+image/jpeg=ristretto.desktop;
+image/bmp=ristretto.desktop;
+image/gif=ristretto.desktop;
+image/png=ristretto.desktop;
+image/tiff=ristretto.desktop;
+text/plain=mousepad.desktop;
+application/x-iso9660-appimage=gnome-disk-image-mounter.desktop;
+application/x-cd-image=gnome-disk-image-mounter.desktop;
+
