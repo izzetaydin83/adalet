@@ -5,7 +5,7 @@ Build-Depends: debhelper (>= 9)
 Maintainer: İzzet Aydin <izzetaydin@gmail.com>
 
 Package: adalet
-Depends: oracle-java8-jre, akis, pidgin, cups-bsd, akis, pidgin, unrar, florence, pinta, kazam, ntpdate, autoproxy
+Depends: oracle-java8-jre, akis, pidgin, cups-bsd, akis, pidgin, unrar, florence, pinta, kazam, ntpdate
 Conflicts: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon
 Replaces: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon
 Architecture: all
