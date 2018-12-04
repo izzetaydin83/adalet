@@ -19,7 +19,7 @@ install:
 	@cp -rf data/images/1920.jpg $(DESTDIR)/usr/share/backgrounds/
 
 	mkdir -p $(DESTDIR)/usr/share/lightdm/lightdm-gtk-greeter.conf.d/
-	@cp -rf /data/lightdm/60-adalet-uyap.conf $(DESTDIR)/usr/share/lightdm/lightdm-gtk-greeter.conf.d/
+	@cp -rf data/lightdm/60-adalet-uyap.conf $(DESTDIR)/usr/share/lightdm/lightdm-gtk-greeter.conf.d/
 
 
 	mkdir -p  $(DESTDIR)/etc/skel/Masaüstü/
