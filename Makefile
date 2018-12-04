@@ -4,18 +4,18 @@ install:
 
         mkdir -p  $(DESTDIR)/etc/skel/.java/
         @cp -rf data/java/_.java $(DESTDIR)/etc/skel/.java
-        @cp -rf data/java/_.java.policy $(DESTDIR)/etc/skel/.java.policy 
+	@cp -rf data/java/_.java.policy $(DESTDIR)/etc/skel/.java.policy 
 
 	mkdir -p $(DESTDIR)/usr/share/pixmaps/
-        @cp -rf data/images/uyap-editor-kisayol.png $(DESTDIR)/usr/share/pixmaps/
-        @cp -rf data/images/akis.png $(DESTDIR)/usr/share/pixmaps/
-        @cp -rf data/images/haberci.png $(DESTDIR)/usr/share/pixmaps/
+	@cp -rf data/images/uyap-editor-kisayol.png $(DESTDIR)/usr/share/pixmaps/
+	@cp -rf data/images/akis.png $(DESTDIR)/usr/share/pixmaps/
+	@cp -rf data/images/haberci.png $(DESTDIR)/usr/share/pixmaps/
 
-        mkdir -p $(DESTDIR)/etc/firefox-esr/
-        @cp -rf data/firefox/adalet.js $(DESTDIR)/etc/firefox-esr/
+	mkdir -p $(DESTDIR)/etc/firefox-esr/
+	@cp -rf data/firefox/adalet.js $(DESTDIR)/etc/firefox-esr/
 
 	mkdir -p $(DESTDIR)/usr/share/backgrounds/
-        @cp -rf data/images/ADALET7.jpg $(DESTDIR)/usr/share/backgrounds/
+	@cp -rf data/images/ADALET7.jpg $(DESTDIR)/usr/share/backgrounds/
 	@cp -rf data/images/1920.jpg $(DESTDIR)/usr/share/backgrounds/
 
 	mkdir -p $(DESTDIR)/usr/share/lightdm/lightdm-gtk-greeter.conf.d/
@@ -25,14 +25,14 @@ install:
 	mkdir -p  $(DESTDIR)/etc/skel/Masaüstü/
 	mkdir -p  $(DESTDIR)/etc/skel/.config/
 	mkdir -p  $(DESTDIR)/etc/skel/.config/Thunar/
-        mkdir -p  $(DESTDIR)/etc/skel/.config/menus/
-        mkdir -p  $(DESTDIR)/usr/share/desktop-directories/
+	mkdir -p  $(DESTDIR)/etc/skel/.config/menus/
+	mkdir -p  $(DESTDIR)/usr/share/desktop-directories/
 	@cp -rf data/desktop/* $(DESTDIR)/etc/skel/Masaüstü/
 	@cp -rf data/xfce4 $(DESTDIR)/etc/skel/.config/xfce4
-        @cp -rf data/thunar/mimeapps.list $(DESTDIR)/etc/skel/.config/
-        @cp -rf data/thunar/uca.xml $(DESTDIR)/etc/skel/.config/Thunar/  
-        @cp -rf data/thunar/xfce-applications.menu $(DESTDIR)/etc/skel/.config/menus/ 
-        @cp -rf data/thunar/uyap.directory $(DESTDIR)/usr/share/desktop-directories/
+	@cp -rf data/thunar/mimeapps.list $(DESTDIR)/etc/skel/.config/
+	@cp -rf data/thunar/uca.xml $(DESTDIR)/etc/skel/.config/Thunar/  
+	@cp -rf data/thunar/xfce-applications.menu $(DESTDIR)/etc/skel/.config/menus/ 
+	@cp -rf data/thunar/uyap.directory $(DESTDIR)/usr/share/desktop-directories/
 	
 	mkdir -p  $(DESTDIR)/etc/skel/.local/share/applications/
 	@cp -rf data/apps/* $(DESTDIR)/etc/skel/.local/share/applications/
