@@ -3,8 +3,8 @@ all: install
 install:
 
 	mkdir -p  $(DESTDIR)/etc/skel/.java/
-	@cp -rf data/java/_.java $(DESTDIR)/etc/skel/.java
-	@cp -rf data/java/_.java.policy $(DESTDIR)/etc/skel/.java.policy 
+	@cp -rf data/java/.java $(DESTDIR)/etc/skel/.java
+	@cp -rf data/java/.java.policy $(DESTDIR)/etc/skel/.java.policy 
 
 	mkdir -p $(DESTDIR)/usr/share/pixmaps/
 	@cp -rf data/images/uyap-editor-kisayol.png $(DESTDIR)/usr/share/pixmaps/
