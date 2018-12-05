@@ -48,7 +48,7 @@ install:
 	mkdir -p $(DESTDIR)/etc/sysctl.d/
 	@cp -rf data/dirty-vm.conf $(DESTDIR)/etc/sysctl.d/   
 	@cp -rf data/uyarlama.sh $(DESTDIR)/usr/lib/
-        @cp -rf data/varsayilana-don.sh $(DESTDIR)/usr/lib/
+	@cp -rf data/varsayilana-don.sh $(DESTDIR)/usr/lib/
 
 
 uninstall:
