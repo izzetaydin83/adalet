@@ -28,7 +28,7 @@ install:
 	mkdir -p  $(DESTDIR)/etc/skel/.config/menus/
 	mkdir -p  $(DESTDIR)/usr/share/desktop-directories/
 	mkdir -p  $(DESTDIR)/etc/skel/.purple/
-        mkdir -p  $(DESTDIR)/etc/xdg/autostart/
+	mkdir -p  $(DESTDIR)/etc/xdg/autostart/
 	@cp -rf data/haberci/.purple $(DESTDIR)/etc/skel/.purple/
 	@cp -rf data/haberci/haberci.desktop $(DESTDIR)/etc/xdg/autostart
 	@cp -rf data/desktop/* $(DESTDIR)/etc/skel/Masaüstü/
