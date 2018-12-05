@@ -45,7 +45,11 @@ install:
 
 	unopkg add -f --shared data/libre/oo-turkish-dict-v1-2.oxt
 
+	mkdir -p $(DESTDIR)/etc/sysctl.d/
+	@cp -rf data/dirty-vm.conf $(DESTDIR)/etc/sysctl.d/   
 	@cp -rf data/uyarlama.sh $(DESTDIR)/usr/lib/
+        @cp -rf data/varsayilana-don.sh $(DESTDIR)/usr/lib/
+
 
 uninstall:
 	@rm -rf $(DESTDIR)/usr/lib/mozilla/plugins/libflashplayer.so
