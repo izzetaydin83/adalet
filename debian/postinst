@@ -4,7 +4,6 @@ set -e
 
 cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/trq
 cp /usr/share/X11/xkb/symbols/tr /usr/share/X11/xkb/symbols/trf
-sh /usr/lib/uyarlama.sh
 
 
 
