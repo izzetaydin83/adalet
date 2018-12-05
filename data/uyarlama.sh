@@ -9,7 +9,7 @@ cp -rf /etc/skel/.java.policy /home/$USR/.java.policy
 
 rm -rf /home/$USR/.config/xfce4/
 cp -rf /etc/skel/.config/xfce4	 /home/$USR/.config/
-cp -rf   /etc/skel/mimeapps.list /home/$USR/.config/
+cp -rf /etc/skel/.config/mimeapps.list /home/$USR/.config/
 cp -rf /etc/skel/Masaüstü/*.desktop /home/$USR/Masaüstü/
 
 rm -rf /home/$USR/.purple

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-jabber</protocol>
+		<name>absicil@haberci/</name>
+		<statuses>
+			<status type='available' name='Çevrimiçi' active='true'>
+				<attributes/>
+			</status>
+			<status type='mood' name='His' active='false'>
+				<attributes/>
+			</status>
+			<status type='freeforchat' name='Konuşkan' active='false'>
+				<attributes/>
+			</status>
+			<status type='away' name='Uzakta' active='false'>
+				<attributes/>
+			</status>
+			<status type='extended_away' name='Uzun süreli uzakta' active='false'>
+				<attributes/>
+			</status>
+			<status type='dnd' name='Rahatsız Etme' active='false'>
+				<attributes/>
+			</status>
+			<status type='offline' name='Çevrimdışı' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='bosh_url' type='string'></setting>
+			<setting name='auth_plain_in_clear' type='bool'>0</setting>
+			<setting name='custom_smileys' type='bool'>1</setting>
+			<setting name='port' type='int'>5223</setting>
+			<setting name='connect_server' type='string'></setting>
+			<setting name='ft_proxies' type='string'>proxy.eu.jabber.org</setting>
+			<setting name='check-mail' type='bool'>0</setting>
+			<setting name='connection_security' type='string'>old_ssl</setting>
+			<setting name='use-global-buddyicon' type='bool'>1</setting>
+			<setting name='silence-suppression' type='bool'>0</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>0</setting>
+		</settings>
+		<proxy>
+			<type>none</type>
+		</proxy>
+		<current_error/>
+	</account>
+</account>

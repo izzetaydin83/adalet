@@ -27,13 +27,17 @@ install:
 	mkdir -p  $(DESTDIR)/etc/skel/.config/Thunar/
 	mkdir -p  $(DESTDIR)/etc/skel/.config/menus/
 	mkdir -p  $(DESTDIR)/usr/share/desktop-directories/
+	mkdir -p  $(DESTDIR)/etc/skel/.purple/
+        mkdir -p  $(DESTDIR)/etc/xdg/autostart/
+	@cp -rf data/haberci/.purple $(DESTDIR)/etc/skel/.purple/
+	@cp -rf data/haberci/haberci.desktop $(DESTDIR)/etc/xdg/autostart
 	@cp -rf data/desktop/* $(DESTDIR)/etc/skel/Masaüstü/
 	@cp -rf data/xfce4 $(DESTDIR)/etc/skel/.config/xfce4
 	@cp -rf data/thunar/mimeapps.list $(DESTDIR)/etc/skel/.config/
 	@cp -rf data/thunar/uca.xml $(DESTDIR)/etc/skel/.config/Thunar/  
 	@cp -rf data/thunar/xfce-applications.menu $(DESTDIR)/etc/skel/.config/menus/ 
 	@cp -rf data/thunar/uyap.directory $(DESTDIR)/usr/share/desktop-directories/
-	
+
 	mkdir -p  $(DESTDIR)/etc/skel/.local/share/applications/
 	@cp -rf data/apps/* $(DESTDIR)/etc/skel/.local/share/applications/
 
