@@ -2,3 +2,4 @@
 
 set -e
 
+apt-get install firefox-esr=52.9.0esr-1~deb9u1 
