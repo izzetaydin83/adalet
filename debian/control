@@ -3,7 +3,7 @@ Source: adalet
 Section: utils
 Priority: optional
 Build-Depends: debhelper (>= 9)
-Maintainer: İzzet Aydin <izzetaydin@gmail.com>
+Maintainer: İzzet Aydin <izzet.aydin@pardus.org.tr>
 
 Package: adalet
 Depends: oracle-java8-jre, akis, pidgin, cups-bsd, akis, pidgin, unrar, florence, pinta, kazam, ntpdate, uyapeditor
