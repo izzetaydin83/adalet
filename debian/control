@@ -8,8 +8,8 @@ Maintainer: İzzet Aydin <izzetaydin@gmail.com>
 Package: adalet
 Depends: oracle-java8-jre, akis, pidgin, cups-bsd, akis, pidgin, unrar, florence, pinta, kazam, ntpdate, uyapeditor
 Pre-Depends: firefox-esr, firefox-esr-l10n-tr
-Conflicts: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon,mutt, libreoffice-base, libreoffice-math, firefox-esr (>>52.9.0esr-1~deb9u1), firefox-esr-l10n-tr (>>52.9.0esr-1~deb9u1)
-Replaces: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon,mutt, libreoffice-base, libreoffice-math, firefox-esr (>>52.9.0esr-1~deb9u1), firefox-esr-l10n-tr (>>52.9.0esr-1~deb9u1)
+Conflicts: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon,mutt, libreoffice-base, libreoffice-math
+Replaces: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon,mutt, libreoffice-base, libreoffice-math
 Architecture: all
 Version: 1.0
 Description: TC. Adalet Bakanlığı Pardus17 uyarlaması
