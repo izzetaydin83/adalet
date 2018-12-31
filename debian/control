@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9)
 Maintainer: İzzet Aydin <izzetaydin@gmail.com>
 
 Package: adalet
-Depends: oracle-java8-jre, akis, pidgin, cups-bsd, akis, pidgin, unrar, florence, pinta, kazam, ntpdate, uyapeditor, firefox-esr (=52.9.0esr-1~deb9u1), firefox-esr-l10n-tr (=52.9.0esr-1~deb9u1)
+Depends: oracle-java8-jre, akis, pidgin, cups-bsd, akis, pidgin, unrar, florence, pinta, kazam, ntpdate, uyapeditor, firefox-esr (<=52.9.0esr-1~deb9u1), firefox-esr-l10n-tr (<=52.9.0esr-1~deb9u1)
 Conflicts: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon,mutt, libreoffice-base, libreoffice-math, firefox-esr (>52.9.0esr-1~deb9u1), firefox-esr-l10n-tr (>52.9.0esr-1~deb9u1)
 Replaces: icedtea-netx, openjdk-8-jre, openjdk-8-jre-headless, gimp, pk-update-icon,mutt, libreoffice-base, libreoffice-math, firefox-esr (>52.9.0esr-1~deb9u1), firefox-esr-l10n-tr (>52.9.0esr-1~deb9u1)
 Architecture: all
