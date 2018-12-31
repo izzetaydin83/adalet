@@ -18,6 +18,7 @@
         <value type="int" value="1"/>
         <value type="int" value="8"/>
         <value type="int" value="4"/>
+        <value type="int" value="6"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
       </property>
@@ -55,7 +56,7 @@
     </property>
     <property name="plugin-2" type="empty"/>
     <property name="plugin-13" type="empty"/>
-    <property name="plugin-6" type="string" value="xkb-plugin"/>
+    <property name="plugin-6" type="string" value="xkb"/>
     <property name="plugin-9" type="string" value="xfce4-mount-plugin"/>
       <property name="show-recent" type="bool" value="false"/>
       <property name="show-bookmarks" type="bool" value="false"/>
